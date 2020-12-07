@@ -53,7 +53,7 @@ func main() {
 	resp, err := grequests.Post(url, &grequests.RequestOptions{Data: data})
 	checkerr(err)
 	GetID(resp)
-	//how to know datatype
+	//data type
 	// x := fmt.Sprintf("%T", resp)
 	// fmt.Println(x)
 }
